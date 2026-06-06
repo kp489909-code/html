@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+    <table border="black">
+        <caption>Food Item</caption>
+        <thead>
+           <tr>
+            <th>Item</th>
+            <th>Price</th>
+           </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Frooti</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>Samosa</td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td>Chips</td>
+            <td>25</td>
+        </tr>
+        </tbody>
+    </table>
+    <hr>
+    <!-- table with row and colspan -->
+     <table border="black">
+        <caption>Food Item</caption>
+        <thead>
+            <tr>
+                <th rowspan="2">Item</th>
+                <th colspan="2">Price</th>
+            </tr>
+            <tr>
+                <th>INR</th>
+                <th>USD</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Frooti</td>
+                <td>10</td>
+                <td>0.14</td>
+            </tr>
+            <tr>
+                <td>Samosa</td>
+                <td>12</td>
+                <td>0.15</td>
+            </tr>
+            <tr>
+                <td>Chips</td>
+                <td>20</td>
+                <td>0.18</td>
+            </tr>
+
+        </tbody>
+     </table>
+     <hr>
+     <!-- practice question for table -->
+      <table border="black">
+        <caption>Table with Merged cells</caption>
+        <thead>
+            <tr>
+              <th rowspan="2"></th>
+              <th colspan="2">Averages</th>
+              <th rowspan="2">Red Eyes</th>
+            </tr>
+            <tr>
+                <th>Height</th>
+                <th>Weight</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Males</td>
+                <td>1.9</td>
+                <td>0.003</td>
+                <td>40%</td>
+            </tr>
+            <tr>
+                <td>Females</td>
+                <td>1.7</td>
+                <td>0.002</td>
+                <td>43%</td>
+            </tr>
+        </tbody>
+      </table>
+      <hr>
+      <hr>
+      <h1>Form tags intro </h1>
+      <form action="/server">
+        <div><label for="username" >Enter your Name:</label>
+            <input type="text" id="username">
+        </div>
+        <br>
+        <div>
+            <label for="password">password</label>
+            <input type="password" id="password">
+        </div>
+        <br>
+        <div>
+            <label for="age">Age:</label>
+            <input type="Number" id="age">
+        </div>
+        <br><br>
+        <div>
+            <input type="time" id="time">
+            <label for="time">Time:</label>
+        </div>
+        <div>
+            <input type="color" id="color">
+            <label for="color">Color:</label>
+        </div>
+        <button type="submit">submit</button>
+        <button type="reset">Reset</button>
+      </form>
+      <hr>
+      <h3>Normal button demostration in html</h3>
+      <form>
+        <button type="button">Form normal button </button>
+      </form><hr>
+    <form action="/server">
+      <h3>Using input tag creating button</h3>
+      <div>
+            <label for="age">Age:</label>
+            <input type="Number" id="age">
+        </div>
+      <input type="button" value="click me"><br>
+      <input type="submit" value="click me"><br>
+      <input type="reset" value="click me"><br>
+    </form><hr><h3>youtube search by url in form</h3>
+    <form action="https://www.youtube.com/results?search_query=om+namo+bhagavate+vasudevaya">
+        <input type="text" placeholder="search in youtube" name="search_query" >
+        <button>search</button>
+    </form>
+    <hr><h3>google search by url in form</h3>
+    <form action="https://www.google.com/search?q=gujarat">
+        <input type="text" placeholder="search in google" name="q" >
+        <button>search</button>
+    </form>
+    <hr>
+    <br>
+    <!-- other input attributes -->
+     <h3>Form for exploring pair with name(attributes) and value</h3>
+     <form action="/server">
+        <div>
+            <input type="checkbox" name="subjects" id="math" >
+            <label for="math">math</label>
+        </div>
+        <div>
+            <input type="checkbox" name="subjects" id="chemistry" >
+            <label for="chemistry">chemistry</label>
+        </div>
+        <div>
+            <input type="checkbox" name="subjects" id="physics" >
+            <label for="physics">physics</label>
+        </div><br>
+        <div>
+            <input type="radio" name="sex" id="male">
+            <label for="male">male</label>
+        </div>
+        <div>
+            <input type="radio" name="sex" id="female">
+            <label for="female">female</label>
+        </div><br>
+        <div>
+            <select name="profession" id="profession">
+                <option value="student">student</option>
+                 <option value="devloper">devloper</option>
+            </select>
+        </div><br>
+        <div>
+            <label for="volume">volume</label>
+            <input type="range" id="volume"
+                    min="0" max="100"
+                    name="vol"
+                    value="vol">
+
+        </div><br>
+        <label for="feedback">Give your valuable feedback</label>
+        <textarea name="feedback" id="feedback" placeholder="enter your experience"></textarea>
+        <button type="submit">submit</button>
+     </form>
+</body>
+</html>
