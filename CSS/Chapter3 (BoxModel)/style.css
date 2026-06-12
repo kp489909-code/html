@@ -1,0 +1,26 @@
+/* for box model topics
+1)height and width border padding and other property 
+2)border - width,style,color
+*/
+div{
+    height:200px;
+    width: 500px;
+    background-color: antiquewhite;
+    border-width: 5px;
+    border-style: dotted;
+    border-color: blueviolet;
+    border-left-color:brown;
+    border-right-color:yellow;
+    border-top-color:yellow;
+    border-bottom-color:yellow;
+    border-radius: 2% 1px / 12px;
+    padding: 50px;
+    margin:20px;
+
+}
+
+h1{
+    border-width:5px;
+    border-style: groove;
+    border-color: beige;
+}

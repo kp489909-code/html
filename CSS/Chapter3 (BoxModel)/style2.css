@@ -1,0 +1,44 @@
+ /* css for signal light  */
+
+/* #outer{
+    width:70px;
+    height:200px;
+    border:2px solid rgb(195, 126, 126) ;
+}
+.inner{
+    width: 50px;
+    height: 50px;
+    border:2px solid black ;
+    border-radius: 50%;
+    margin: 10px;
+}
+#o{
+    background-color: red;
+}
+#t{
+    background-color: green;
+}
+#th{
+    background-color: yellow;
+
+} */
+/* this css for div.html */
+/* #outer{
+    width:400px;
+    height:400px;
+    border:2px solid black;
+    background-color: blueviolet;
+    font-size: 10px;
+}
+#inner{
+    width:100px;
+    height: 100px;
+    margin:10px;
+    background-color: beige;
+    font-size: 3em;
+    padding: 1em;
+} */
+/* this is for section and 3 div//learning em and rem  */
+div{
+    font-size: 2rem;
+}
